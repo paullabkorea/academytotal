@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* p태그 아래에 있는 직계 자식 */
         p > strong {
             color: red;
         }
+        /* p태그 아래에 있는 strong 태그 모든 자손 */
         p strong {
             color: blue;
         }
+        /* p태그 아래에 있는 .one 클래스를 가진 모든 자손 */
         p .one {
             color: red;
         }
+        /* p태그인데 one이라는 클래스를 가진 p태그 */
         p.one {
             color: green;
-        }
-        p .one {
-            color: pink;
         }
     </style>
 </head>
