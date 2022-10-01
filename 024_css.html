@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        div {
+            /* 부모의 font-size의 2배 */
+            font-size: 2em;
+        }
+        .one {
+            /* root의 font-size의 2배 */
+            font-size: 2rem;
+        }
+    </style>
 </head>
 <body>
-    re, rem
+    <h1>hello world</h1>
+    <p>hello world</p>
+    <div>
+        <div>
+            hello world
+        </div>
+    </div>
+    <div>
+        hello world
+    </div>
+    <div>
+        <div>
+            <div>
+                hello world
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div class="one">
+                hello world
+            </div>
+        </div>
+    </div>
 </body>
 </html>
